@@ -1,0 +1,53 @@
+.titulo-productos h1{
+    font-size: 30px !important;
+}
+
+h1{
+    color: rgb(33, 164, 197);
+    font-size: 22px;
+}
+
+.titulo-carrito-vacio h1{
+    color: white;
+    font-size: 30px;
+}
+
+h3{
+    color: #444;
+    font-size: 16px;
+}
+
+.card{
+    height: 500px;
+}
+
+.sumar, .restar{
+  min-width: 30px !important;
+  max-width: 30px !important;
+}
+
+.carrito{
+    min-height: 30vh;
+}
+
+.carrito, .carrito-vacio{
+   min-width: 100%;
+   max-width: 100%;
+}
+
+.carrito-vacio{
+    background-image: linear-gradient(to top, rgba(85, 83, 83, 0.521) 0%, rgba(67, 67, 68, 0.5)
+    100%), url(../../../assets/images/carrito-fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 100vh;
+    max-height: 100vh;
+    color: var(--white-color);
+}
+
+hr{
+    margin-bottom: 0rem;
+}
+
